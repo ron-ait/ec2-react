@@ -6,7 +6,7 @@ then
     rm -rf /var/www/html/build
 fi
 
-mv reactjs /etc/nginx/sites-available/
+mv /helloworld/reactjs /etc/nginx/sites-available/
 if [ $? -eq 0 ] 
 then
    cd /etc/nginx/sites-enabled/
